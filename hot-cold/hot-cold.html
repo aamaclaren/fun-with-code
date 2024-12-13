@@ -1,0 +1,32 @@
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Agu+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <h1>Hot and Cold</h1>
+
+    <div class="content">
+        <div class="rules">
+            <ul>
+                <li>ON FIRE - less than 20 off</li>
+                <li>HOT - less than 50 off</li>
+                <li>WARM - less than 200 off</li>
+                <li>COLD - less than 500 off</li>
+                <li>FROZEN - more than 500 off</li>
+            </ul>
+        </div>
+
+        <div class="game-container">
+            <span>Enter a number:</span>
+            <input type="number" min="1" max="1000" id="guess" />
+            <button id="guess" onclick="guess()">Guess</button>
+            <p id="result"></p>
+        </div>
+    </div>
+</body>

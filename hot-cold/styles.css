@@ -1,0 +1,53 @@
+body {
+    background-color:rgb(159, 208, 250);
+    font-family: "Afacad Flux", sans-serif;
+}
+
+h1 {
+    color:red;
+    font-family: "Agu Display", serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+button {
+    padding: 20px;
+    background-color:lightgreen;
+    border-radius: 12px;
+}
+
+button:active{
+    background-color:darkseagreen;
+}
+
+.content{
+    margin-top: 60px;
+    padding: 100px;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    
+    background-color: steelblue;
+    color: white;
+    border-radius: 16px;
+}
+
+.rules {
+    font-size: 24px;
+}
+
+.game-container {
+    font-size: 42px;
+}
+
+#guess {
+    font-size: 32px;
+}
+
+#result {
+    text-align: center;
+}
+
